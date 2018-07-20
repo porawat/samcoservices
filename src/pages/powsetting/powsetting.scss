@@ -1,0 +1,38 @@
+page-powsetting {
+    body {
+        cursor: url('http://ionicframework.com/img/finger.png'), auto;
+    }
+    
+    .header .col {
+        background-color:#488aff;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+       text-align: left
+    }
+    
+    .col {
+      //  border: solid 1px grey;
+        border-bottom-style: none;
+        border-right-style: none;
+    }
+    
+    .col:last-child {
+        border-right: solid 1px grey;
+
+    }
+    .col:first-child{
+        border-left: solid 1px grey;
+    }
+    .row:last-child .col {
+        border-bottom: solid 1px grey;
+    }
+    .toast-success {
+        
+            // background-color:#32db64;
+             background-color: white;
+      }
+      .toast-container{
+        background-color: white;
+        }
+}
