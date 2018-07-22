@@ -12,6 +12,7 @@
 
 </ion-header>
 <ion-content padding>
+  <div class="point-container">
     <ion-list inset>
       <div class="row header">
           <div class="col">ลำดับ</div>
@@ -25,7 +26,7 @@
           <div class="col" ion-item>{{item.Point_name}}</div>
           </div>
       </ion-list>
-
+    </div>
       <form   (ngSubmit)="logForms()">
          
         <ion-item> -->
@@ -39,7 +40,7 @@
         
 
         <ion-list inset>
-            <div class="row header">
+            <div class="row pointbutton">
                 <!-- <div class="col">จุด</div> -->
                 <div class="col"><button ion-button type="submit" block color="mygreen">เพิ่มจุดตรวจ</button></div>
                 <div class="col"><button ion-button type="button" block color="danger" (click)="resetform()">reset</button></div>
