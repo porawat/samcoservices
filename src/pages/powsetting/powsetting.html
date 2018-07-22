@@ -14,15 +14,15 @@
 <ion-content padding>
     <ion-list inset>
       <div class="row header">
-          <!-- <div class="col">จุด</div> -->
+          <div class="col">ลำดับ</div>
           <div class="col">รหัสจุด</div>
           <div class="col">ชื่อจุด</div>
           
         </div>
-        <div class="row" *ngFor="let item of items" (click)="itemSelected(item)">
-          <!-- <div class="col">{{item.Point_id}}</div> -->
-          <div class="col">{{item.Point_set}}</div>
-          <div class="col">{{item.Point_name}}</div>
+        <div class="row" *ngFor="let item of items;let i=index" (click)="itemSelected(item)" >
+          <div class="col" ion-item>{{i+1}}</div> 
+          <div class="col" ion-item>{{item.Point_set}}</div>
+          <div class="col" ion-item>{{item.Point_name}}</div>
           </div>
       </ion-list>
 

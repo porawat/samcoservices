@@ -11,22 +11,7 @@ page-powsetting {
        text-align: left
     }
     
-    .col {
-      //  border: solid 1px grey;
-        border-bottom-style: none;
-        border-right-style: none;
-    }
-    
-    .col:last-child {
-        border-right: solid 1px grey;
-
-    }
-    .col:first-child{
-        border-left: solid 1px grey;
-    }
-    .row:last-child .col {
-        border-bottom: solid 1px grey;
-    }
+   
     .toast-success {
         
             // background-color:#32db64;
