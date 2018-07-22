@@ -41,8 +41,12 @@ $colors: (
   dark:       #222,
   myblue:#0071bc,
   myyellow:#fcee21,
-  mygreen:#009245
+  mygreen:#009245,
+  myred:red
 );
+ion-icon {
+  font-size: 25px; //Preferred size here
+}
 $toast-ios-background:(#32db64);
 $toast-md-background:(#222);
 $toast-wp-background:(#222);
